@@ -1,7 +1,7 @@
-//Firebase Links
-var firebaseConfig = {
+  var firebaseConfig = {
     apiKey: "AIzaSyCeBBBdlQFzKcC7hX-IIih_mDITKlzsUvw",
     authDomain: "parlons-database.firebaseapp.com",
+    databaseURL: "https://parlons-database-default-rtdb.firebaseio.com",
     projectId: "parlons-database",
     storageBucket: "parlons-database.appspot.com",
     messagingSenderId: "1093542039452",
@@ -9,7 +9,6 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-
 //------------------------------------
 
 //Login Function

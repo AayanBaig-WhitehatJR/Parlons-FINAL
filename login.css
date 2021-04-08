@@ -13,3 +13,6 @@
 #inputUsername{
     width: 38%;
 }
+#output{
+    float: center !important; 
+}
